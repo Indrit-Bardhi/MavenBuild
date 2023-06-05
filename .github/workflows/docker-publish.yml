@@ -6,7 +6,7 @@ on:
 jobs:
  docker:
   env:
-   appName: "docker-image"
+   appName: "images"
   runs-on: ubuntu-latest
   steps:
    - name: Checkout
