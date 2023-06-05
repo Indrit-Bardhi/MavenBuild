@@ -23,4 +23,4 @@ jobs:
      with:
       context: .
       push: true
-      tags: ${{ secrets.DOCKER_USERNAME }}/${{ env.appNAME }}:latest
+      tags: ${{ secrets.DOCKER_USERNAME }}/${{ env.appNAME }}:latest2
